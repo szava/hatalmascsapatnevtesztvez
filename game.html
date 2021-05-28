@@ -1,0 +1,66 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an exaple oof a meta description.
+    this will often show up in search results.">
+    <meta name="viewport" content="width=device-width, initial-scalle=1">
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/riddle.js"></script>
+  </head>
+  <body>
+
+
+    <div class="header">
+      <h2>Válassz karaktert!</h2>
+    </div>
+
+    <div class="interface">
+      
+      <a href="#" onclick="GameManager.setGameStart('Harcos')">
+        <img src= "img\avatar-player\Harcos.jpg" alt="harcos">
+        <div>
+          <h3>Harcos</h3>
+          <p>Nagyobb damage, lomhább, átlagos hp</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="GameManager.setGameStart('Druida')">
+        <img src= "img\avatar-player\Druida.jpg" alt="druida">
+        <div>
+          <h3>Druida</h3>
+          <p>Átlag alatti damage, átlagos sebesség, átlag feletti hp</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="GameManager.setGameStart('Vadász')">
+        <img src= "img\avatar-player\Vadász.jpg" alt="vadász">
+        <div>
+          <h3>Vadász</h3>
+          <p>Átlagos damage, gyors, kevesebb hp</p>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="actions">      
+    </div>
+
+    <div class="arena">
+    </div>
+
+    <div class="enemy">
+    </div>
+
+    <div class="logout">
+      <h1><a href='includes/logout-inc.php'> Kijelentkezés </a></h1>
+    </div>
+
+
+
+  </body>
+</html>
